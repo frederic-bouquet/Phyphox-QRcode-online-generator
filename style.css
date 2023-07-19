@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  h1 {
+    font-size: 42px; /* Adjust the font size as desired */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* Target unvisited links */
+  a:link {
+    color: #ffffff; /* Set the color for unvisited links */
+  }
+  
+  /* Target visited links */
+  a:visited {
+    color: #ffffff; /* Set the color for visited links */
+  }
+
+  .colorful-word {
+    color: rgb(239, 121, 23); /* Set the desired RGB color */
+  }
+
+  .upload-container {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .upload-container p {
+    font-size: 20px;
+  }
+
+  .file-input {
+    font-size: 18px;
+    width: 50%;
+    background-color: rgb(50, 50, 50);
+    color: white;
+  }
+
+  .upload-button {
+    font-size: 18px;
+    /* background-color: rgb(239, 121, 23);
+    color:white; */
+  }
+
+  .status-container{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(239, 121, 23); /* Set the desired RGB color */
+  }
+
+  .qrcode-container {
+    display: flex;
+    flex-direction: column; /* Change the flex-direction to column */
+    align-items: center; /* Center the items horizontally */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .qrcode-container button{
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+/* TESTS */
+

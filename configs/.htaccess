@@ -1,0 +1,16 @@
+Copy code
+# Block access to config files
+<FilesMatch "config\.json$">
+ Require all denied
+</FilesMatch>
+
+# Protect configs folder 
+<Directory /path/to/configs>
+
+  # Deny web access
+  Require all denied
+
+  # Prevent directory listing
+  Options -Indexes
+
+</Directory>

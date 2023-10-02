@@ -39,7 +39,7 @@ fetch('getconfig.php')
 
       // Check file size
       if (file.size > fileSizeLimit) {
-        displayStatus('File size exceeds the limit of 1MB.'); // this value needs to be updated if the config.json file is changed
+        displayStatus('File size exceeds the limit of 100 ko.'); // this value needs to be updated if the config.json file is changed
         return;
       }
 
